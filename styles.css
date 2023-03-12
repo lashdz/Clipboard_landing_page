@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 32px 0px 32px;
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 125px;
+    height: 125px;
+    margin-top: 123px;
+    margin-bottom: 64px;
+}
+
+main {
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+}
+
+h1 {
+    width: 311px;
+    height: 80px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.52px;
+    margin:0px 0px 16px 0px;
+    text-align: center;
+    color: #4C545C;
+}
+
+.conteiner_h1p {
+    width: 311px;
+    height: 78px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    text-align: center;
+    color: #9EABB2;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 160px;
+}
+
+.button_ios {
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.50px;
+    border: 0px;
+    color: white;
+    background-color: #26BBA4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), 
+                inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.button_ios:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+.button_mac {
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.50px;
+    border: 0px;
+    color: white;
+    background-color: #6174FF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), 
+                inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.button_mac:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+h2 {
+    width: 311px;
+    height: 70px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.46px;
+    margin: auto;
+    text-align: center;
+    color: #4C545C;
+}
+
+.conteiner_h2p {
+    width: 311px;
+    height: 130px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    text-align: center;
+    color: #9EABB2;
+    margin-bottom: 65px;
+    margin-top: 16px;
+}
+
+.conteiner_computer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+.conteiner_computer img {
+    width: 312px;
+    height: 238px;
+    margin: auto;
+}
+
+.conteiner_computer_lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    width: 311px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 48px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.39px;
+    color: #4C545C;
+}
+
+.conteiner_computer_lists p {
+    width: 311px;
+    height: 78px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+}
+
+.p_whether {
+    width: 311px;
+    height: 78px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin: 16px 32px 65px 32px;
+}
+
+.img_devices {
+    width: 311px;
+    height: 182px;
+    margin:0px 32px 130px 32px;
+}
+
+.p_tools {
+    width: 311px;
+    height: 52px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin:11px 32px 90px 32px;
+}
+
+.conteiner_review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.conteiner_review_blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner_review_blocks img{
+    width: 44px;
+    height: 40px;
+}
+
+.conteiner_review_blocks h3 {
+    margin: 30px 0px 18px 0px;
+}
+
+.conteiner_review_blocks p {
+    width: 311px;
+    height: 78px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-bottom: 55px;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 170px;
+    gap: 55px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #eff5f7;
+}
+
+footer img {
+    width: 55px;
+    height: 55px;
+    margin-top: 52px;
+    margin-bottom: 45px;
+}
+
+.add_inf {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add_inf p {
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    color: #4C545C;
+}
+
+.add_inf p:hover {
+    cursor: pointer;
+    color: #26BBA4;
+}
+
+.social_links {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 51px;
+}
+.social_links img {
+    width: 24px;
+    height: 24px;
+}
+
+.social_links img:hover {
+    cursor: pointer;
+    filter: invert(55%) sepia(72%) saturate(452%) 
+    hue-rotate(121deg) brightness(98%) contrast(84%);
+}
+
+/* desktop mode */
+@media screen and (min-width:1024px) {
+body {
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+    
+header {
+    box-sizing: border-box;
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: 100%;
+}
+
+h1 {
+    width: 730px;
+    height: 58px;
+    font-size: 46px;
+    line-height: 57px;
+    letter-spacing: -0.75px;
+}
+
+.conteiner_h1p {
+    width: 730px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.buttons {
+    flex-direction: row;
+}
+
+.button_ios, .button_mac {
+    width: 227px;
+}
+
+h2 {
+    width: 730px;
+    height: 45px;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.60px;
+}
+
+.conteiner_h2p {
+    width: 730px;
+    height: 90px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.conteiner_computer {
+    width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.conteiner_computer img {
+    width: 600px;
+    height: 500px;
+    margin-left: -30px;
+    margin-right: 7%;
+}
+
+h3 {
+    text-align: start;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.conteiner_computer_lists {
+    align-items: start;
+}
+
+.conteiner_computer_lists p {
+    text-align: start;
+    width: 350px;
+    height: 60px;
+}
+
+.p_whether {
+    width: 730px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.img_devices {
+    width: 812px;
+    height: 475px;
+}
+
+.p_tools {
+    width: 730px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.conteiner_review {
+    flex-direction: row;
+    gap: 2.5%;
+}
+
+.conteiner_review h3 {
+    text-align: center;
+}
+
+.partners, footer, .add_inf {
+    flex-direction: row;
+}
+
+footer {
+    justify-content: space-around;
+}
+
+footer img {
+    margin-left: 7%;
+}
+
+.add_inf {
+    max-width: 600px;
+    height: 72px;
+    gap: 10px;
+    margin-left: 8%;
+    flex-wrap: wrap;
+}
+
+.add_inf p {
+    text-align: start;
+}
+
+.social_links {
+    width: 400px;
+    margin-right: 50px;
+    justify-content: end;
+}
+}
